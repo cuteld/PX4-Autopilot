@@ -44,12 +44,6 @@ float32 loiter_radius		# loiter radius (only for fixed wing), in m
 int8 loiter_direction		# loiter direction: 1 = CW, -1 = CCW
 float32 pitch_min		# minimal pitch angle for fixed wing takeoff waypoints
 
-float32 a_x			# acceleration x setpoint
-float32 a_y			# acceleration y setpoint
-float32 a_z			# acceleration z setpoint
-bool acceleration_valid		# true if acceleration setpoint is valid/should be used
-bool acceleration_is_force	# interprete acceleration as force
-
 float32 acceptance_radius   # navigation acceptance_radius if we're doing waypoint navigation
 
 float32 cruising_speed		# the generally desired cruising speed (not a hard constraint)
